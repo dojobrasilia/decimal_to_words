@@ -30,7 +30,7 @@ describe 'Decimal to Words' do
 	it 'should work for 20 to 29' do
 		c= DTW.new
 		c.convert(21).should == 'twenty one'
-		c.convert(25).should == 'twenty five'
+		c.convert(29).should == 'twenty nine'
 	end
 
 
